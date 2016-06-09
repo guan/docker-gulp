@@ -18,3 +18,13 @@ Or running specific task:
 ``` shell
 docker run --rm -it -v (pwd):/src reload/gulp gulp specific-task
 ```
+
+Use in docker-compose.yml:
+
+``` yaml
+gulp:
+  image: reload/gulp:3.9.1
+  volumes:
+    - './sites/all/themes/wille:/src'
+
+```
