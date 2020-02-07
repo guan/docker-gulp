@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:13.7.0
+FROM mhart/alpine-node:13.8.0
 
 RUN apk add --no-cache make gcc g++ python
 
