@@ -6,7 +6,7 @@ VOLUME /src
 
 COPY runner.sh /usr/bin
 
-RUN npm install -g gulp@3.9.1
+RUN npm install -g gulp@4.0.2
 
 WORKDIR /src
 
